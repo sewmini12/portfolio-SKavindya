@@ -1,0 +1,59 @@
+.about {
+  padding: 6rem 0;
+  background: #f8f9fa;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.skills h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills li {
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 0;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+}
